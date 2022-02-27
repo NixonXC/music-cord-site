@@ -89,6 +89,9 @@ body {
     color: #ededf0;
     margin-left: auto;
 }
+.codeblock img {
+    cursor: pointer;
+}
 .ye2 code{
     font-family: Consolas,"courier new";
     color: rgb(9, 255, 0);
