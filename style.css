@@ -11,7 +11,7 @@ body {
     color: #ededf0;
 }
 .main h1 {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 42px;
 }
 .main img {
@@ -28,7 +28,7 @@ body {
     color: #ededf0;
 }
 .navbar {
-    margin-top: -5px;
+    margin-top: -1px;
     border-radius: 12px;
     background-color: #1d2027 !important;
     padding-top: 8px;
@@ -45,6 +45,7 @@ body {
 }
 .navimg {
     float: left;
+    cursor: pointer;
 }
 .navp {
     float: right;
@@ -60,6 +61,10 @@ body {
     border-radius: 12px;
     text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navp a:hover {
+    background-color: rgba(255, 255, 255, 0.199);;
+    transition: 0.8s;
 }
 .navli a {
     display: block;
